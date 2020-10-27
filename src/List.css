@@ -1,0 +1,25 @@
+.todo_style{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.todo_style .delete_btn{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 35px;
+    padding: 5px;
+    color: #6aaff3;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.todo_style .delete_btn:hover{
+    background-color: transparent;
+    color: crimson;
+    box-shadow: 5px 5px 15px -5px rgba(255, 0, 0, 0.2);
+}
